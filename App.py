@@ -140,7 +140,7 @@ with col1:
     elif prediction > 350:
         st.warning("⚠️ **Lead Caldo** (Follow-up richiesto)")
     else:
-        st.secondary("🧊 **Lead Freddo** (Nurturing)")
+        st.info("🧊 **Lead Freddo** (Nurturing)")
 
 with col2:
     st.subheader("📊 Analisi dei Fattori (Coefficienti)")
