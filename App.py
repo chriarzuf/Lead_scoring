@@ -136,9 +136,9 @@ with col1:
     
     # Logica di business
     if prediction > 600:
-        st.success("🔥 **SUPER LEAD** (Alta priorità)")
+        st.success("🔥 **Lead Caldo** (Alta priorità)")
     elif prediction > 350:
-        st.warning("⚠️ **Lead Caldo** (Follow-up richiesto)")
+        st.warning("⚠️ **Lead Tiepido** (Follow-up richiesto)")
     else:
         st.info("🧊 **Lead Freddo** (Nurturing)")
 
